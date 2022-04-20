@@ -1,4 +1,40 @@
-.footer{
-  margin-left : 80px;
-  font-size : 18px;
+body{
+  text-align: center;
+}
+.main{
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+}
+
+.heroes{
+  text-align: end;
+}
+
+.villians{
+  text-align: left;
+}
+
+.template{
+  display: inline-block;
+}
+
+.score{
+  text-align: center;
+}
+
+.template{
+  border: 2px solid #d6d6d6;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.score > p{
+  display: inline;
+  font-size: 4em;
+}
+
+#play{
+  margin-top: 30px;
+  font-size: x-large;
 }
